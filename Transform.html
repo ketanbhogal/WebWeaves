@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        #main{
+            display:flex;
+            gap: 80px;
+        }
+        #box{
+            position: relative;
+            top:100px;
+            height: 200px;
+            width:200px;
+            background-color: aqua;
+            left: 50px;
+            transform: rotate(50deg);
+        }
+
+        #box1{
+            position: relative;
+            top:100px;
+            height: 200px;
+            width:200px;
+            background-color: rgb(4, 87, 87);
+            left: 50px;
+            transform: skew(25deg);
+            color: white;
+        }
+
+        #box2{
+            position: relative;
+            top:100px;
+            height: 200px;
+            width:200px;
+            background-color: rgb(226, 33, 33);
+            left: 80px;
+            transform: scale(1.5);
+            color: white;
+        }
+        #box3{
+            position: relative;
+            top:100px;
+            height: 200px;
+            width:200px;
+            background: linear-gradient(teal,red,black);
+            left: 80px;
+            transform:translate(100px);
+            color: white;
+        }
+        
+
+    </Style>
+</head>
+<body>
+    <div id="main">
+    <div id="box"><b><u>Rotate</u></b></div>
+     <div id="box1"><b><u><i>Skew</i></u></b></div>
+     <div id="box2"><b><u><i>Scale</i></u></b></div>
+
+     <div id="box3"><b><u><i>Translate</i></u></b></div>
+
+     </div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section > div > section {
+            background-color: aqua;
+        }
+
+
+        /* Select the second h1 element */
+         div > section > h1:nth-of-type(2) {
+            color: red;
+         }
+
+
+        button{
+                height: 30px;
+                color: rgb(255, 255, 255);
+                border: none;
+                width: 50px;
+                background-color: black;
+                font-size: 14px;
+                font-weight: 600;
+        }
+
+                button:hover{
+                    background-color: rgb(252, 171, 10);
+                    color: aliceblue;
+                    border: 1px orangered;
+                }
+
+            
+        
+    </style>
+</head>
+<body>
+        <div>
+            <section>
+                <h1 >Hiiii This is First h1 Element</h1>
+                <h1 >Hiiii This is Second h1 Element</h1>
+                <h1>Hiiii This is Third h1 Element</h1>
+            </section>
+        </div>
+
+        <button class="btn">Click Me</button>
+</body>
+
+</html>

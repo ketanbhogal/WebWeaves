@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #animation{
+            height: 250px;
+            width: 250px;
+            background-color: blanchedalmond ;
+            margin-top:230px;
+            margin-left: 600px;
+            animation:something;
+            animation-delay: 2s;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: 10;
+            animation-direction: alternate;
+        }
+        @keyframes something{
+            0%{
+                scale: 2;
+                background-color: gold;
+            }
+            100%{
+                background-color: rgb(240, 11, 126);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="animation"></div>
+    
+</body>
+</html>
